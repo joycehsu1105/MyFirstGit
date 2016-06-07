@@ -15,6 +15,12 @@ namespace WindowsFormsApplication1
         public frmMain()
         {
             InitializeComponent();
+            textBox1.Text = "http://www.google.com.tw";
+        }
+
+        private void btnSend_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
         }
     }
 }
