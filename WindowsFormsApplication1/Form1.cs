@@ -20,7 +20,7 @@ namespace WindowsFormsApplication1
 
         private void btnSend_Click(object sender, EventArgs e)
         {
-            //
+            txtURI.Text = "";
         }
     }
 }
