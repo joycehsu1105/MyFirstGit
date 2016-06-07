@@ -15,12 +15,12 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
-            txtURI.Text = "http://www.google.com.tw";
+            textBox1.Text = "http://www.google.com.tw";
         }
 
         private void btnSend_Click(object sender, EventArgs e)
         {
-            txtURI.Text = "";
+            textBox1.Text = "";
         }
     }
 }
