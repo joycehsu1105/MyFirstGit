@@ -21,6 +21,7 @@ namespace WindowsFormsApplication1
         private void btnSend_Click(object sender, EventArgs e)
         {
             textBox1.Text = "http://tw.yahoo.com";
+            textBox1.Enabled = false;
         }
     }
 }
